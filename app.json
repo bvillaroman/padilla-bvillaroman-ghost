@@ -9,13 +9,20 @@
   "success_url": "/ghost",
   "addons": [
     "jawsdb",
-    "mailgun",
     "cloudinary"
   ],
   "env": {
     "APP_PUBLIC_URL": {
       "description": "The HTTPS URL of this app: either your custom domain or default 'herokuapp.com' hostname.",
-      "value": "https://YOURAPPNAME.herokuapp.com"
+      "value": "https://padilla-bvillaroman.herokuapp.com"
+    },
+    "CLOUDINARY_API_KEY": {
+      "description": "cloudinary api key",
+      "value": "842953913512967"
+    },
+    "CLOUDINARY_CLOUD_NAME": {
+      "description": "cloud name for api",
+      "value": "dyeerzayu"
     },
     "S3_ACCESS_KEY_ID": {
       "description": "(Optional) Set your AWS Access Key ID to enable S3 file storage. Defaults to Cloudinary storage",
